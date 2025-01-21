@@ -3,4 +3,7 @@ waybar
 foot
 brightnessctl
 wireplumber
+dunst
+swaylock
+swayidle
 
