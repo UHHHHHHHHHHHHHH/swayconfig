@@ -42,7 +42,7 @@ smart_borders on
 default_border pixel 1
 
 # Set the Wallpaper:
-#output * bg $HOME/.config/sway/wallpaper.jpg fill
+output * bg $HOME/.config/sway/wallpaper.webp fill
 
 
 #====================================#
@@ -241,6 +241,9 @@ bindsym ctrl+$mod+f exec nautilus
 set $term foot
 bindsym $mod+t exec $term .
 bindsym $mod+Return exec $term
+
+# Transparent term
+# for_window [app_id="$term"] opacity 0.95
 
 # Kill focused window:
 bindsym $mod+q kill

@@ -3,6 +3,7 @@
 !.gitignore
 
 !sway
+!sway/wallpaper.webp
 !foot
 !wofi
 !waybar
