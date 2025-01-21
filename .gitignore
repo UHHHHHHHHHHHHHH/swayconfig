@@ -1,0 +1,9 @@
+*
+
+!.keepfiles
+!.gitignore
+
+!sway
+!foot
+!wofi
+!waybar
