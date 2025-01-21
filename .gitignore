@@ -3,6 +3,8 @@
 !.gitignore
 
 !sway
+!sway/audio.sh
+!sway/resize.sh
 !sway/wallpaper.webp
 !foot
 !wofi
