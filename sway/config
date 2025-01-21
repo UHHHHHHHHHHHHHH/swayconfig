@@ -240,7 +240,7 @@ bindsym ctrl+$mod+f exec nautilus
 
 # Open a terminal emulator:
 set $term foot
-bindsym $mod+t exec $term .
+bindsym $mod+t exec $term
 bindsym $mod+Return exec $term
 
 # Transparent term
