@@ -229,7 +229,7 @@ bindsym XF86MonBrightnessUp exec brightnessctl set +10%
 # Keyboard Shortcuts (launching applications) #
 #=============================================#
 # Set up wofi to replace dmenu as the launcher of choice:
-set $menu wofi --show drun  -i | xargs swaymsg exec --
+set $menu wofi --show drun -i | xargs swaymsg exec --
 
 # Launch your browser:
 bindsym $mod+shift+b exec firefox
@@ -239,7 +239,7 @@ bindsym ctrl+$mod+f exec nautilus
 
 # Open a terminal emulator:
 set $term foot
-bindsym $mod+t exec $term
+bindsym $mod+t exec $term .
 bindsym $mod+Return exec $term
 
 # Kill focused window:
